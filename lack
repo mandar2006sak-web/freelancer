@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>skillconnet | a freelancer website.</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="skillconnet" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="a freelancer website." />
+<meta property="og:description" content="a freelancer website." />
+<link rel="canonical" href="https://mandar2006sak-web.github.io/skillconnet/" />
+<meta property="og:url" content="https://mandar2006sak-web.github.io/skillconnet/" />
+<meta property="og:site_name" content="skillconnet" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="skillconnet" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"a freelancer website.","headline":"skillconnet","name":"skillconnet","url":"https://mandar2006sak-web.github.io/skillconnet/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/skillconnet/assets/css/style.css?v=21a6d802a9bcb72d39a4d270125c1467d86b126b">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/skillconnet/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://mandar2006sak-web.github.io/skillconnet/">skillconnet</a></h1>
+      
+
+    
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillConnect | Find Top Freelance Talent</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Inter Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      scroll-behavior: smooth;
+    }
+    .text-skill-primary { color: #0d9488; }
+    .bg-skill-primary { background-color: #0d9488; }
+    .hover-skill-primary:hover { background-color: #0f766e; }
+
+    .glass {
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(13,148,136,0.15);
+    }
+
+    .field { position: relative; }
+    .field input:focus + label,
+    .field input:not(:placeholder-shown) + label {
+      transform: translateY(-1.3rem) scale(0.85);
+      color: #0d9488;
+    }
+    .field label {
+      position: absolute;
+      left: 0.75rem;
+      top: 0.8rem;
+      color: #6b7280;
+      pointer-events: none;
+      transition: all 0.2s ease;
+      background: transparent;
+      padding: 0 0.25rem;
+    }
+    @keyframes shake {
+      10%, 90% { transform: translateX(-1px); }
+      20%, 80% { transform: translateX(2px); }
+      30%, 50%, 70% { transform: translateX(-4px); }
+      40%, 60% { transform: translateX(4px); }
+    }
+    .shake { animation: shake 400ms ease; }
+  </style>
+</head>
+
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+  <!-- ✅ NAVIGATION BAR -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <a href="#" class="text-3xl font-extrabold text-skill-primary tracking-tight">
+          Skill<span class="text-gray-800">Connect</span>
+        </a>
+        <nav class="hidden md:flex space-x-8 items-center">
+          <a href="#categories" class="text-gray-600 hover:text-skill-primary font-medium">Browse Skills</a>
+          <a href="#how-it-works" class="text-gray-600 hover:text-skill-primary font-medium">How It Works</a>
+          <a href="#featured" class="text-gray-600 hover:text-skill-primary font-medium">Top Talent</a>
+          <a href="#about-us" class="text-gray-600 hover:text-skill-primary font-medium">About Us</a>
+          <a href="#signin" class="text-gray-600 hover:text-skill-primary font-medium">Sign In</a>
+          <button class="px-5 py-2.5 bg-skill-primary text-white rounded-xl font-semibold hover-skill-primary shadow-lg shadow-teal-500/30">
+            Post a Job
+          </button>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pt-2 pb-4 space-y-2 bg-gray-50 border-t border-gray-200">
+      <a href="#categories" class="block px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-200">Browse Skills</a>
+      <a href="#how-it-works" class="block px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-200">How It Works</a>
+      <a href="#featured" class="block px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-200">Top Talent</a>
+      <a href="#about-us" class="block px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-200">About Us</a>
+      <a href="#signin" class="block px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-200">Sign In</a>
+      <button class="w-full text-left px-3 py-2 bg-skill-primary text-white rounded-xl font-semibold hover-skill-primary">
+        Post a Job
+      </button>
+    </div>
+  </header>
+
+  <!-- ✅ HERO SECTION -->
+  <section class="py-16 md:py-24 bg-gray-100 text-center">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4">
+        Connect with the <span class="text-skill-primary">Perfect Freelancer</span>, Instantly.
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
+        Discover verified professionals for any project, from web development to content creation.
+      </p>
+
+      <!-- Search Bar -->
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 p-4 bg-white shadow-xl rounded-2xl border border-gray-200">
+        <div class="flex-grow">
+          <input type="text" id="search-input" placeholder="What skill do you need? e.g., 'React Developer'" class="w-full p-4 border border-gray-300 rounded-xl focus:ring-skill-primary focus:border-skill-primary text-gray-700 shadow-sm" />
+        </div>
+        <button id="search-button" class="flex-shrink-0 px-8 py-3 bg-skill-primary text-white font-bold rounded-xl hover-skill-primary shadow-lg shadow-teal-500/40">
+          Search Skill
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ SIGN IN SECTION -->
+  <section id="signin" class="py-16 flex items-center justify-center bg-gray-50">
+    <div class="glass rounded-2xl shadow-xl w-full max-w-md p-8 bg-white/70">
+      <div class="text-center mb-6">
+        <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-skill-primary text-white font-bold text-lg">SC</div>
+        <h1 class="text-2xl font-bold text-gray-800 mt-4">Sign in to SkillConnect</h1>
+        <p class="text-gray-500 text-sm mt-1">Welcome back! Please enter your details below.</p>
+      </div>
+
+      <form id="signinForm" class="space-y-4" novalidate="">
+        <div class="field">
+          <input id="email" type="email" placeholder=" " required="" class="peer w-full rounded-md border border-gray-300 px-3 py-3 text-gray-800 placeholder-transparent focus:outline-none focus:ring-2 focus:ring-skill-primary" />
+          <label for="email">Email address</label>
+          <p id="emailError" class="mt-1 text-sm text-red-600 hidden"></p>
+        </div>
+
+        <div class="field">
+          <input id="password" type="password" placeholder=" " minlength="6" required="" class="peer w-full rounded-md border border-gray-300 px-3 py-3 text-gray-800 placeholder-transparent focus:outline-none focus:ring-2 focus:ring-skill-primary" />
+          <label for="password">Password</label>
+          <p id="passError" class="mt-1 text-sm text-red-600 hidden"></p>
+        </div>
+
+        <div class="flex items-center justify-between text-sm">
+          <label class="flex items-center gap-2 text-gray-600">
+            <input type="checkbox" class="h-4 w-4 text-skill-primary border-gray-300 rounded" />
+            Remember me
+          </label>
+          <a href="#" class="text-skill-primary hover:underline">Forgot password?</a>
+        </div>
+
+        <button id="submitBtn" type="submit" class="w-full py-3 bg-skill-primary text-white font-semibold rounded-lg hover-skill-primary transition">
+          Sign In
+        </button>
+
+        <div id="formMessage" class="text-center text-sm mt-3"></div>
+      </form>
+
+      <p class="text-center text-gray-600 text-sm mt-6">
+        Don’t have an account?
+        <a href="#" class="text-skill-primary font-semibold hover:underline">Sign Up</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer class="bg-gray-800 text-white text-center py-6 text-sm">
+    <p>© 2025 SkillConnect — Built with ❤️ by CSE Students, PRMCEAM</p>
+  </footer>
+
+  <!-- ✅ SCRIPT: Mobile Menu + Form Validation -->
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Sign-in validation
+    const form = document.getElementById('signinForm');
+    const emailEl = document.getElementById('email');
+    const passEl = document.getElementById('password');
+    const emailError = document.getElementById('emailError');
+    const passError = document.getElementById('passError');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMessage = document.getElementById('formMessage');
+
+    function validateEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+    function showError(el, msg) { el.textContent = msg; el.classList.remove('hidden'); }
+    function hideError(el) { el.textContent = ''; el.classList.add('hidden'); }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      hideError(emailError);
+      hideError(passError);
+      formMessage.textContent = '';
+      form.classList.remove('shake');
+
+      const email = emailEl.value.trim();
+      const password = passEl.value;
+      let hasError = false;
+
+      if (!validateEmail(email)) {
+        showError(emailError, 'Please enter a valid email address.');
+        hasError = true;
+      }
+      if (password.length < 6) {
+        showError(passError, 'Password must be at least 6 characters.');
+        hasError = true;
+      }
+
+      if (hasError) {
+        form.classList.add('shake');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Signing in...';
+
+      await new Promise(r => setTimeout(r, 900));
+
+      if (email.endsWith('@example.com') && password === 'password123') {
+        formMessage.textContent = 'Sign in successful! Redirecting...';
+        formMessage.className = 'text-center text-green-600 mt-2';
+        setTimeout(() => window.location.href = '#', 1200);
+      } else {
+        formMessage.textContent = 'Invalid credentials. Try again.';
+        formMessage.className = 'text-center text-red-600 mt-2';
+      }
+
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Sign In';
+    });
+  </script>
+
+  <!-- Popular Tags -->
+            <div class="mt-8">
+                <span class="text-gray-500 font-medium mr-3 hidden sm:inline">Popular:</span>
+                <div class="inline-flex flex-wrap justify-center gap-2">
+                    <span class="text-sm px-3 py-1 bg-white border border-gray-300 rounded-full text-gray-700 cursor-pointer hover:bg-gray-100 transition">Web Dev</span>
+                    <span class="text-sm px-3 py-1 bg-white border border-gray-300 rounded-full text-gray-700 cursor-pointer hover:bg-gray-100 transition">Design</span>
+                    <span class="text-sm px-3 py-1 bg-white border border-gray-300 rounded-full text-gray-700 cursor-pointer hover:bg-gray-100 transition">Copywriting</span>
+                    <span class="text-sm px-3 py-1 bg-white border border-gray-300 rounded-full text-gray-700 cursor-pointer hover:bg-gray-100 transition">Data Entry</span>
+                </div>
+            </div>
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    <!-- 2. Featured Categories Section -->
+    <section id="categories" class="py-16 md:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-12">Explore Top Categories</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <!-- Category Card 1 -->
+                <a href="#" class="group block p-6 bg-white rounded-xl shadow-lg border border-gray-200 text-center transition duration-300 card-hover">
+                    <span class="text-3xl mb-3 block text-skill-primary">💻</span>
+                    <p class="font-bold text-gray-800 group-hover:text-skill-primary">Development</p>
+                    <p class="text-sm text-gray-500">1.2K+ Services</p>
+                </a>
+                <!-- Category Card 2 -->
+                <a href="#" class="group block p-6 bg-white rounded-xl shadow-lg border border-gray-200 text-center transition duration-300 card-hover">
+                    <span class="text-3xl mb-3 block text-skill-primary">🎨</span>
+                    <p class="font-bold text-gray-800 group-hover:text-skill-primary">Design &amp; Art</p>
+                    <p class="text-sm text-gray-500">850+ Services</p>
+                </a>
+                <!-- Category Card 3 -->
+                <a href="#" class="group block p-6 bg-white rounded-xl shadow-lg border border-gray-200 text-center transition duration-300 card-hover">
+                    <span class="text-3xl mb-3 block text-skill-primary">✍️</span>
+                    <p class="font-bold text-gray-800 group-hover:text-skill-primary">Writing &amp; Trans.</p>
+                    <p class="text-sm text-gray-500">510+ Services</p>
+                </a>
+                <!-- Category Card 4 -->
+                <a href="#" class="group block p-6 bg-white rounded-xl shadow-lg border border-gray-200 text-center transition duration-300 card-hover">
+                    <span class="text-3xl mb-3 block text-skill-primary">📈</span>
+                    <p class="font-bold text-gray-800 group-hover:text-skill-primary">Digital Mktg</p>
+                    <p class="text-sm text-gray-500">920+ Services</p>
+                </a>
+                <!-- Category Card 5 -->
+                <a href="#" class="group block p-6 bg-white rounded-xl shadow-lg border border-gray-200 text-center transition duration-300 card-hover">
+                    <span class="text-3xl mb-3 block text-skill-primary">🎥</span>
+                    <p class="font-bold text-gray-800 group-hover:text-skill-primary">Video &amp; Photo</p>
+                    <p class="text-sm text-gray-500">680+ Services</p>
+                </a>
+                <!-- Category Card 6 -->
+                <a href="#" class="group block p-6 bg-white rounded-xl shadow-lg border border-gray-200 text-center transition duration-300 card-hover">
+                    <span class="text-3xl mb-3 block text-skill-primary">💼</span>
+                    <p class="font-bold text-gray-800 group-hover:text-skill-primary">Business Ops</p>
+                    <p class="text-sm text-gray-500">450+ Services</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. How It Works Section -->
+    <section id="how-it-works" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-16">Your Project, Simplified in 3 Steps</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Step 1 -->
+                <div class="text-center p-8 rounded-xl border-2 border-dashed border-skill-primary/30 bg-teal-50 transition duration-300 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-skill-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-md">1</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Post Your Needs</h3>
+                    <p class="text-gray-600">Tell us what you need done. Our smart matching system instantly finds the best talent for the job.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center p-8 rounded-xl border-2 border-dashed border-skill-primary/30 bg-teal-50 transition duration-300 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-skill-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-md">2</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Connect &amp; Hire</h3>
+                    <p class="text-gray-600">Review proposals, chat with candidates, and hire the professional with the right skills and portfolio.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center p-8 rounded-xl border-2 border-dashed border-skill-primary/30 bg-teal-50 transition duration-300 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-skill-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-md">3</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Pay Safely</h3>
+                    <p class="text-gray-600">Approve the final work and pay securely through the platform. Your funds are protected until you're satisfied.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Featured Talent Section -->
+    <section id="featured" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-12">Our Featured Freelancers</h2>
+            <p class="text-center text-lg text-gray-600 mb-16">Top-rated talent ready to start your project today.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Freelancer Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200 transition duration-300 card-hover flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/10b981/ffffff?text=JN" alt="Jane N." class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-skill-primary/50" onerror="this.onerror=null;this.src='https://placehold.co/100x100/10b981/ffffff?text=JN';" />
+                    <h3 class="text-xl font-bold text-gray-900">Jane Nelson</h3>
+                    <p class="text-skill-primary font-semibold mb-2">Senior Full-Stack Developer</p>
+                    <p class="text-sm text-gray-600 mb-4">React, Node.js, and Cloud Infrastructure expert with 8+ years experience.</p>
+                    <div class="flex items-center text-yellow-500 mb-4">
+                        <span class="text-sm font-bold mr-1">4.9</span>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+                        <span class="text-gray-500 text-sm ml-1">(245 Reviews)</span>
+                    </div>
+                    <a href="#" class="mt-auto px-4 py-2 text-sm bg-gray-800 text-white rounded-lg hover:bg-skill-primary transition duration-150">View Profile</a>
+                </div>
+
+                <!-- Freelancer Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200 transition duration-300 card-hover flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/f59e0b/ffffff?text=MK" alt="Maria K." class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-yellow-500/50" onerror="this.onerror=null;this.src='https://placehold.co/100x100/f59e0b/ffffff?text=MK';" />
+                    <h3 class="text-xl font-bold text-gray-900">Maria Kim</h3>
+                    <p class="text-yellow-600 font-semibold mb-2">Brand &amp; Logo Designer</p>
+                    <p class="text-sm text-gray-600 mb-4">Award-winning UI/UX and visual identity specialist using Figma and Sketch.</p>
+                    <div class="flex items-center text-yellow-500 mb-4">
+                        <span class="text-sm font-bold mr-1">5.0</span>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+                        <span class="text-gray-500 text-sm ml-1">(180 Reviews)</span>
+                    </div>
+                    <a href="#" class="mt-auto px-4 py-2 text-sm bg-gray-800 text-white rounded-lg hover:bg-skill-primary transition duration-150">View Profile</a>
+                </div>
+
+                <!-- Freelancer Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200 transition duration-300 card-hover flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/1d4ed8/ffffff?text=DA" alt="David A." class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-blue-600/50" onerror="this.onerror=null;this.src='https://placehold.co/100x100/1d4ed8/ffffff?text=DA';" />
+                    <h3 class="text-xl font-bold text-gray-900">David Allen</h3>
+                    <p class="text-blue-600 font-semibold mb-2">SEO &amp; Content Strategist</p>
+                    <p class="text-sm text-gray-600 mb-4">Boosting organic traffic with data-driven content marketing and SEO best practices.</p>
+                    <div class="flex items-center text-yellow-500 mb-4">
+                        <span class="text-sm font-bold mr-1">4.7</span>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+                        <span class="text-gray-500 text-sm ml-1">(98 Reviews)</span>
+                    </div>
+                    <a href="#" class="mt-auto px-4 py-2 text-sm bg-gray-800 text-white rounded-lg hover:bg-skill-primary transition duration-150">View Profile</a>
+                </div>
+
+                <!-- Freelancer Card 4 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-200 transition duration-300 card-hover flex flex-col items-center text-center">
+                    <img src="https://placehold.co/100x100/9333ea/ffffff?text=SL" alt="Sara L." class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-purple-600/50" onerror="this.onerror=null;this.src='https://placehold.co/100x100/9333ea/ffffff?text=SL';" />
+                    <h3 class="text-xl font-bold text-gray-900">Sara Lopez</h3>
+                    <p class="text-purple-600 font-semibold mb-2">Video Editor &amp; Animator</p>
+                    <p class="text-sm text-gray-600 mb-4">Creative video production and motion graphics specialist for explainer videos and ads.</p>
+                    <div class="flex items-center text-yellow-500 mb-4">
+                        <span class="text-sm font-bold mr-1">4.8</span>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+                        <span class="text-gray-500 text-sm ml-1">(152 Reviews)</span>
+                    </div>
+                    <a href="#" class="mt-auto px-4 py-2 text-sm bg-gray-800 text-white rounded-lg hover:bg-skill-primary transition duration-150">View Profile</a>
+                </div>
+
+            </div>
+            <div class="text-center mt-12">
+                <button class="px-8 py-3 text-lg font-semibold border-2 border-skill-primary text-skill-primary rounded-xl hover:bg-skill-primary hover:text-white transition duration-200 shadow-md">
+                    View All Talent
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. About Us Section (NEW) -->
+    <section id="about-us" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-4">About <span class="text-skill-primary">SkillConnect</span></h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-3xl mx-auto">SkillConnect was built with the mission to seamlessly connect businesses with bright, technical talent, starting right here in our community.</p>
+
+            <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">Meet the Development Team</h3>
+
+            <div class="max-w-4xl mx-auto bg-teal-50 p-8 rounded-xl shadow-lg border border-teal-200">
+                <p class="text-xl font-semibold text-gray-700 mb-6 text-center">
+                    This project was conceived and developed by a dedicated team of **Second Year Computer Science and Engineering (CSE)** students from
+                    <span class="text-skill-primary font-extrabold">Prof. Ram Meghe College of Engineering and Management, Amravati</span>.
+                </p>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                    <!-- Team Member 1 -->
+                    <div class="p-4 bg-white rounded-lg shadow-md border-t-4 border-skill-primary">
+                        <p class="text-lg font-bold text-gray-900">Safal Sardare</p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="p-4 bg-white rounded-lg shadow-md border-t-4 border-skill-primary">
+                        <p class="text-lg font-bold text-gray-900">Lachiket Nandeshwar</p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="p-4 bg-white rounded-lg shadow-md border-t-4 border-skill-primary">
+                        <p class="text-lg font-bold text-gray-900">Mandar Sakarkar</p>
+                    </div>
+                    <!-- Team Member 4 -->
+                    <div class="p-4 bg-white rounded-lg shadow-md border-t-4 border-skill-primary">
+                        <p class="text-lg font-bold text-gray-900">Ankur wath</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Call to Action (CTA) Section -->
+    <section class="py-16 md:py-20 bg-skill-primary">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">Ready to Connect with Skilled Professionals?</h2>
+            <p class="text-xl text-teal-200 mb-8 max-w-3xl mx-auto">
+                Join Skill Connect today and transform your ideas into reality.
+            </p>
+            <div class="space-y-4 sm:space-y-0 sm:space-x-4">
+                <button class="px-8 py-3 text-lg font-bold bg-white text-skill-primary rounded-xl hover:bg-gray-100 transition duration-150 shadow-2xl transform active:scale-95">
+                    Start Hiring Now
+                </button>
+                <button class="px-8 py-3 text-lg font-bold bg-gray-800 text-white rounded-xl hover:bg-gray-700 transition duration-150 shadow-2xl transform active:scale-95">
+                    Apply as a Freelancer
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-5 gap-8">
+            <!-- Col 1: Logo & Info -->
+            <div class="col-span-2 md:col-span-2">
+                <a href="#" class="text-2xl font-extrabold text-skill-primary tracking-tight">
+                    Skill<span class="text-white">Connect</span>
+                </a>
+                <p class="mt-3 text-gray-400 text-sm">Connecting great projects with great talent, every day.</p>
+                <div class="flex space-x-4 mt-4">
+                    <!-- Social Icons (Placeholder) -->
+                    <a href="#" class="text-gray-400 hover:text-skill-primary transition duration-150">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.873V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.775-1.63 1.564V12h2.775l-.445 2.89h-2.33V21.873C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z" /></svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-skill-primary transition duration-150">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.46 6c-.77.34-1.6.56-2.46.66.88-.53 1.56-1.37 1.88-2.37-.83.5-1.75.85-2.7.99C18.35 4.77 17.3 4 16.15 4c-2.37 0-4.31 1.93-4.31 4.31 0 .34.04.68.12 1-.02-.02-.04-.04-.06-.06C7.75 8.35 4.54 6.64 2.3 3.84c-.38.65-.6 1.4-.6 2.2 0 1.49.76 2.81 1.9 3.58-.7-.02-1.35-.21-1.92-.53v.05c0 2.09 1.49 3.83 3.47 4.23-.36.1-.74.15-1.13.15-.28 0-.55-.03-.81-.08.55 1.72 2.15 2.97 4.05 3.06-1.48 1.16-3.35 1.86-5.38 1.86-.35 0-.7-.02-1.04-.06C3.39 19.33 5.46 20 7.74 20c8.08 0 12.52-6.69 12.52-12.52 0-.2-.01-.4-.02-.6.86-.62 1.6-1.38 2.18-2.26z" /></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Col 2: For Clients -->
+            <div>
+                <h4 class="font-bold text-lg mb-4 text-skill-primary">For Clients</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white transition">How to Hire</a></li>
+                    <li><a href="#" class="hover:text-white transition">Post a Job</a></li>
+                    <li><a href="#" class="hover:text-white transition">Safety Center</a></li>
+                    <li><a href="#" class="hover:text-white transition">Hire Dedicated Teams</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: For Freelancers -->
+            <div>
+                <h4 class="font-bold text-lg mb-4 text-skill-primary">For Talent</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white transition">Find Work</a></li>
+                    <li><a href="#" class="hover:text-white transition">Create Profile</a></li>
+                    <li><a href="#" class="hover:text-white transition">Skill Tests</a></li>
+                    <li><a href="#" class="hover:text-white transition">Success Stories</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Company -->
+            <div class="col-span-2 md:col-span-1">
+                <h4 class="font-bold text-lg mb-4 text-skill-primary">Company</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                    <li><a href="#" class="hover:text-white transition">Careers</a></li>
+                    <li><a href="#" class="hover:text-white transition">Press</a></li>
+                    <li><a href="#" class="hover:text-white transition">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-6 border-t border-gray-700">
+            <p class="text-center text-sm text-gray-500">&copy; 2025 SkillConnect, Inc. All rights reserved. | <a href="#" class="hover:text-skill-primary">Privacy Policy</a> | <a href="#" class="hover:text-skill-primary">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for basic UI interactivity (Mobile Menu, Search Button effect) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const searchButton = document.getElementById('search-button');
+
+            // 1. Mobile Menu Toggle
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+
+                // Close menu when a link is clicked
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+
+            // 2. Search Button Click Effect (Frontend only simulation)
+            if (searchButton) {
+                searchButton.addEventListener('click', () => {
+                    const searchInput = document.getElementById('search-input');
+                    const skill = searchInput.value.trim();
+                    
+                    // Simple console log to show what would be searched
+                    console.log(`Searching for skill: "${skill || 'All Skills'}"`);
+
+                    // Visual feedback: briefly change button text
+                    searchButton.innerHTML = 'Searching...';
+                    searchButton.classList.add('bg-gray-500', 'pointer-events-none');
+                    searchButton.classList.remove('bg-skill-primary', 'hover-skill-primary');
+
+                    setTimeout(() => {
+                        searchButton.innerHTML = searchButton.getAttribute('data-original-text') || (window.innerWidth >= 768 ? 'Search Skill' : 'Find Talent');
+                        searchButton.classList.remove('bg-gray-500', 'pointer-events-none');
+                        searchButton.classList.add('bg-skill-primary', 'hover-skill-primary');
+                        
+                        // Clear input visually after a 'search' action
+                        searchInput.value = '';
+
+                        // In a real app, this is where a fetch call would go to load results
+                        // For now, we simulate success
+                        alertBox.show('Search initiated! Results would appear here.', 'success');
+                    }, 1000);
+                });
+
+                // Store original text and handle responsive text change
+                const updateSearchButtonText = () => {
+                    const originalText = window.innerWidth >= 768 ? 'Search Skill' : 'Find Talent';
+                    searchButton.setAttribute('data-original-text', originalText);
+                    if (searchButton.innerHTML !== 'Searching...') {
+                        searchButton.innerHTML = originalText;
+                    }
+                };
+                window.addEventListener('resize', updateSearchButtonText);
+                updateSearchButtonText(); // Initial call
+            }
+
+            // 3. Custom Alert/Message Box Functionality (Replacing alert())
+            const alertBox = {
+                // Creates and shows a dynamic alert box at the top of the viewport
+                show: (message, type = 'info') => {
+                    let box = document.getElementById('custom-alert');
+                    if (!box) {
+                        box = document.createElement('div');
+                        box.id = 'custom-alert';
+                        box.className = 'fixed top-4 left-1/2 transform -translate-x-1/2 px-6 py-3 rounded-xl shadow-2xl transition-opacity duration-300 opacity-0 z-[100] max-w-sm w-full text-center font-semibold text-white';
+                        document.body.appendChild(box);
+                    }
+
+                    // Set colors based on type
+                    let bgColor = 'bg-gray-700';
+                    if (type === 'success') bgColor = 'bg-green-600';
+                    else if (type === 'error') bgColor = 'bg-red-600';
+                    else if (type === 'warning') bgColor = 'bg-yellow-600';
+
+                    box.className = box.className.replace(/bg-[a-z]+-\d+/, bgColor);
+                    box.classList.add(bgColor);
+                    box.textContent = message;
+
+                    // Show the box
+                    setTimeout(() => box.classList.remove('opacity-0'), 10);
+
+                    // Hide the box after 3 seconds
+                    setTimeout(() => box.classList.add('opacity-0'), 3000);
+                }
+            };
+        });
+    </script>
+
+</body>
+</html>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
